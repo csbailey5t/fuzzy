@@ -9,7 +9,7 @@ data.buyer = data.buyer.fillna('no_buyer')
 data.dest = data.dest.fillna('no_dest')
 
 # narrow the data to just US dest
-us_data = data[data.dest == 'US'][:200]
+us_data = data[data.dest == 'US']
 
 # set a threshold level for similarity
 threshold = 80
